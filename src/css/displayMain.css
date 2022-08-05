@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* /////////////////////////////// */
+/*               BODY              */
+/* /////////////////////////////// */
+body,html{ -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; height: 100%; 
+	font-family: var(--outfit); background-color: var(--blueSky); }
+#root{ height: 100%; }
+*{ box-sizing: border-box; text-decoration: none; outline: none; }
+
+/* /////////////////////////////// */
+/*           FONTS & COLORS        */
+/* /////////////////////////////// */
+:root{
+	/* Fonts */
+	--outfit:'Outfit', sans-serif;
+	/* Colors */
+	--blueSky:#d5e1ef;
+	--lightGrey:#7a7d84;
+}
+
+/* /////////////////////////////// */
+/*           GLOBAL CLASSES        */
+/* /////////////////////////////// */
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
